@@ -1,0 +1,139 @@
+body{
+    font-family: poppins;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+.hero{
+    margin: 0;
+    height: 100vh;
+    background-image: url('../img/hero.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.hero-text{
+    margin:0;
+    padding-top: 280px;
+}
+.hero-text h1{
+    color: white;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+nav{
+    border-bottom: 5px solid #E27822;
+}
+nav ul li{
+    text-transform: uppercase;
+    font-style: oblique;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+
+}
+nav a:hover{
+    color: #E27822;
+}
+nav a:active{
+    color: #E27822;
+    border: 1px solid white;
+}
+
+.about h2 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -90px;
+  bottom: 0;
+  width: 10px;
+  border-bottom: 4px double #E27822 ;
+}
+.profile{
+      position: relative;
+      width: 400px;
+      height: 350px;
+      margin: 20px 0;
+      border-radius: 50% / 10%;
+      color: white;
+      text-align: center;
+      text-indent: .1em;
+    }
+    .profile:before {
+      content: '';
+      position: absolute;
+      top: 10%;
+      bottom: 10%;
+      right: -5%;
+      left: -5%;
+      background: inherit;
+      border-radius: 5% / 50%;
+    }
+    .caption{
+        margin-left: 135px;
+    }
+    .services h2 {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    h2:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      margin-left: -75px;
+      bottom: 0;
+      width: 120px;
+      border-bottom: 4px double #E27822 ;
+    }
+    .srimg{
+      position: relative;
+      margin: 20px 0;
+      /*background:;*/
+      border-radius: 50% / 10%;
+      color: white;
+      text-align: center;
+      text-indent: .1em;
+    }
+    .srimg:before {
+      content: '';
+      position: absolute;
+      top: 10%;
+      bottom: 10%;
+      right: -5%;
+      left: -5%;
+      background: inherit;
+      border-radius: 5% / 50%;
+    }
+    .zoom{
+      transition: transform.2s;
+    }
+    .zoom:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+   #portfolio h2 {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    h2:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      margin-left: -75px;
+      bottom: 0;
+      width: 120px;
+      border-bottom: 4px double #E27822 ;
+    }
